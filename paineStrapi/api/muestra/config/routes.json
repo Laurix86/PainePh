@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/muestras",
+      "handler": "muestra.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/muestras/count",
+      "handler": "muestra.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/muestras/:id",
+      "handler": "muestra.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/muestras",
+      "handler": "muestra.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/muestras/:id",
+      "handler": "muestra.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/muestras/:id",
+      "handler": "muestra.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
