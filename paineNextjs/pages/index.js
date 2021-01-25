@@ -26,11 +26,8 @@ export default function Home() {
   
   return (
     <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/simple.png" />
-      </Head>
 
+      
       <main className={styles.main}>
         <h1 className={styles.title}>
           Bienvenidos a Paine
